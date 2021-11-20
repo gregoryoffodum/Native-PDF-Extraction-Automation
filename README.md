@@ -11,14 +11,15 @@ The bot classifies and extracts relevant information from native *.pdf receipts 
 
 - Robotic Process Automation
 - Intelligent Automation
+- PDF activities
 - UiPath
 - Regular Expressions
 
 ## Input Files
 
-- The [Attachments](https://github.com/gregoryoffodum/Native-PDF-Extraction-Automation/tree/main/attachments) folder houses the attachments after email automation (extracted from email attachments). 
+- The [Attachments](https://github.com/gregoryoffodum/Native-PDF-Extraction-Automation/tree/main/attachments) folder houses the attachments after email automation (extracted from email attachments) - the target directory for the automation task. 
 
-- The [Regular Expression](https://github.com/gregoryoffodum/Native-PDF-Extraction-Automation/blob/main/regex.xlsx) file contains the regex syntax for all the invoice variants. It was an input in the loop (**Match** activity) to extract selected fields and populate the results in an adjacent column. These values are subsequently moved to a datatable and exported as an excel file. 
+- The [Regular Expression](https://github.com/gregoryoffodum/Native-PDF-Extraction-Automation/blob/main/regex.xlsx) file contains the regex syntax for all the invoice variants. It serves as an input in the loop (**Match** activity) to extract selected fields and populate the results to an adjacent column. These values are subsequently moved to a datatable and exported as an excel file. 
 
 ## Methodology
  
